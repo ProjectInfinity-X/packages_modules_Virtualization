@@ -1,0 +1,37 @@
+# Welcome to Android KVM!
+#
+# Bug component: 867125
+#
+# If you are not a member of the project please send review requests
+# to one of those listed below.
+jiyong@google.com
+smoreland@google.com
+willdeacon@google.com
+
+# Other owners
+alanstokes@google.com
+aliceywang@google.com
+inseob@google.com
+ioffe@google.com
+jaewan@google.com
+jakobvukalovic@google.com
+jeffv@google.com
+jooyung@google.com
+keirf@google.com
+ptosi@google.com
+qperret@google.com
+qwandor@google.com
+sebastianene@google.com
+seungjaeyoo@google.com
+shikhapanwar@google.com
+smostafa@google.com
+tabba@google.com
+vdonnefort@google.com
+victorhsieh@google.com
+
+# Ferrochrome
+per-file android/FerrochromeApp/**=jiyong@google.com,jeongik@google.com
+per-file android/LinuxInstaller/**=jiyong@google.com,jeongik@google.com
+per-file android/TerminalApp/**=jiyong@google.com,jeongik@google.com
+per-file android/VmLauncherApp/**=jiyong@google.com,jeongik@google.com
+per-file libs/vm_launcher_lib/**=jiyong@google.com,jeongik@google.com

@@ -1,0 +1,20 @@
+package {
+    default_applicable_licenses: ["Android-Apache-2.0"],
+}
+
+java_library {
+    name: "vm_launcher_lib",
+    srcs: ["java/**/*.java"],
+    apex_available: [
+        "//apex_available:platform",
+        "com.android.virt",
+    ],
+    platform_apis: true,
+    static_libs: [
+        "gson",
+    ],
+    libs: [
+        "framework-virtualization.impl",
+        "framework-annotations-lib",
+    ],
+}
